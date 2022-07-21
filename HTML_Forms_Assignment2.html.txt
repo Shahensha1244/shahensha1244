@@ -1,0 +1,75 @@
+<!--Exercise 2: In this HTML page, Create a student login form which contains 
+Student Details text as the caption student id, student name, student email, Branch, Year, take radio button for male/female and Submit/Login button.
+After completion of this excercise click on preview link to see your output and submit the assignment to gitHub. -->
+
+<html>
+  <head>
+    <h1>Exercise 2: In this HTML page, Create a student login form</h1><hr/><br/><br/><br/>
+  </head>
+<body>
+  <style>
+    table{background-color:lavenderblush; text-align:center;font-size:20px;}
+    
+  </style>
+    <fieldset>
+      
+      <legend style="text-align:center;font-size:30px;background-color:skyblue";>
+        Student Login Form
+        </legend>
+        <form>
+          <table>
+            <tr>
+              <td><br><label>Student Id: </label>
+              <input type="text" name="deatails"></td>
+            </tr>
+             <tr> <td><br><label>Student Name: </label>
+               <input type="text" name="student name" </td>
+             </tr>
+            <tr> <td><br><label>Student Email: </label>
+               <input type="email"mail" name="Email id" required /> </td>
+             </tr>
+<tr> <td><br><label>Branch: </label>
+  <select class="text">
+    <option><br>------select-----</option>
+   <br> <option>--cse--</option>
+    <option>--IT--</option>
+    <option>--ECE--</option>
+    <option>--EEE--</option>
+    <option>--CIVIL--</option>
+                </td>
+             </tr>
+            <tr>
+              <td>
+                <br><label>Year: </label>
+                <select class="text">
+                  <option>-----Select-----</option>
+                  <option>IV Year</option>
+                  <option>III Year</option>
+                  <option>II Year</option>
+                  <option>I Year</option>
+                            </td>
+            </tr>
+            <tr>
+              <td>
+                <br/><label>Gender : </label>
+                <input type="radio" value="gender" name="Female">Female
+                <input type="radio" value="gender" name="male">Male
+                <input type="radio" value="gender" name="Other">Other
+                
+              </td>
+            </tr>
+
+            <tr>
+              <td><br>
+                <input type="image" src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-login-button-black-png-image_5236751.jpg" width="120px" height="100px" style="background-color:skyblue";>
+              </td>
+            </tr>
+          </table>
+        </form>
+      
+    </fieldset>    
+        
+        
+</body>
+</html>
+

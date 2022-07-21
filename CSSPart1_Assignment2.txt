@@ -1,0 +1,71 @@
+cd    
+<!--Exercise 2: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!--Exercise 2.1: Using pseudo element selector, create a paragraph and display only the first line of para with blue coloured text with a capital letters of small size.-->
+  <br><h1>Exercise 2.1 pseudo element selector </br> </h1>
+  <hr></hr>
+<html>
+  <head>
+  </head>
+  <style>
+    h5::first-line{color:blue;font-variant: small-caps}
+  </style>
+  <body>
+    <h5>
+      Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931, to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. His father Jainulabdeen Marakayar was a boat owner and imam of a local mosque;[9] his mother Ashiamma was a housewife.[10][11][12][13] His father owned a ferry that took Hindu pilgrims back and forth between Rameswaram and the now uninhabited Dhanushkodi.[14][15] Kalam was the youngest of four brothers and one sister in his family.[16][17][18] His ancestors had been wealthy Marakayar traders and landowners, with numerous properties and large tracts of land
+    </h5>
+  </body>
+</html>
+<!-- Exercise 2.2: Using general sibling selector, create an Unordered list, change the colour of the items to green and display them in bold text. --> 
+<br><h1>Exercise 2.2  sibling  selector "+" </br> </h1>
+  <hr></hr>
+  <html>
+  <head>
+    <style>
+      ul{font-weight:bold}
+      h1~h4{color:green;}
+      h1~h3{color:green}
+    </style>
+  <body>
+    <ul>
+      <h1>hyderabad</h1>
+      <h2>pune</h2>
+      <h3>guntur</h3>
+    </ul>
+
+    <ul>
+      <h1>hyderabad</h1>
+      <h2>pune</h2>
+      <h3>guntur</h3>
+      <h4>vijayawada</h4>
+      <h6>banglore</h5>
+    </ul>
+  </body>
+  </head>
+</html>
+<!-- Exercise 2.3: Using adjacent sibling selector, display list items in an ordered list and change the background colour to yellow for the element which is an adjacent sibling for the selected element. -->
+<br><h1>Exercise 2.2  adjacent sibiling selector </br> </h1>
+  <hr></hr>
+  <html>
+<head>
+<style>
+.q + li {background-color:yellow}
+.c+ li{background-color:yellow}
+
+</style>
+<body>
+<ol>
+
+<li class="q">hyderabad</li>
+<li class="b">vijayawada</li>
+<li class="c">nellore</li>
+<li class="d">guntur</li>
+<li class="d">ongole</li>
+</ol>
+</body>
+</head>
+</html>

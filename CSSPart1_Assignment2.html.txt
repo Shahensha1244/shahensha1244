@@ -1,0 +1,139 @@
+l
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!--Exercise 1.1:  Write a sentence and display text in red colour with inline style for the body element  -->
+<h1>Exercise 1.1  INLINE STYLE CODE</h1>
+  <hr></hr>
+ <br><h3 style="color:red">DEMO - INLINE STYLE CODE </h3> </br>
+<!--Exercise 1.2:  Write another sentence and use red coloured text in the paragraph using Internal style. -->
+<h1>Exercise 1.2  INTERNAL STYLE CODE </h1>
+  <hr></hr>
+  <style>
+    p{color:red}
+  </style>
+  <h3>DEMO-INTERNAL STYLE CODE </h3>
+  <p>DEMO-INTERNAL STYLE CODE</p>
+<!--Exercise 1.3:  Create a heading and a paragraph under it. Display text of heading and paragraph tags in different color and font size using external CSS  -->  
+<h1>Exercise 1.3  EXTENAL STYLE CODE </h1>
+  <hr></hr>
+  
+  <html>
+<head>
+<link href="cssfilemyKT.css" rel="stylesheet"  >
+
+</head>
+
+<br><body>
+<div> <h1>A. P. J. Abdul Kalam </h1>
+  <h3>Avul Pakir Jainulabdeen Abdul Kalam (/ˈɑːbdəl kəˈlɑːm/ (listen); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th President of India from 2002 to 2007. </h3>
+  <p><h4>He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering</h4> </p>
+<p><h5>He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering</h5> </p> 
+</div>
+</body>
+  </br>
+  </html>
+
+<!-- Exercise 1.4: Display "My Cities" as a main heading and apply css using id attribute such as changing background color, font color and font family. Display city names as a side headdings and display paragraph about city under each city name. 
+apply css for paragraph's using class attribute such as line height, font color, font-family and font size etc. -->
+<h1>Exercise 1.4   </h1>
+  <hr></hr>
+<html>
+  <head>
+    <style>
+      #a{background-color:yellow;color:blue;font-family:"Times New Roman";}
+       div{color:Blue}
+      .a,.b{color:darkgreen;font-weight:normal;font-size:5px,font-family:arial;height: 2px;}
+      div1{color:blue}
+      .c,.d{color:darkgreen;font-weight:normal;font-size:5px,font-family:arial;height: 2px;}
+      div2{color:blue}
+      .e,.f{color:darkgreen;font-weight:normal;font-size:5px,font-family:arial;height: 2px;}
+      div3{color:blue}
+      .g,.h{color:darkgreen;font-weight:normal;font-size:5px,font-family:arial;height: 2px;}
+      
+    </style>
+    <body>
+      <h1 id="a">My Cities</h1>
+     
+      
+        <div>HYDERABAD</div>
+<p class="a">Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, </p>
+        <p class="b">it's home to many upscale restaurants and shops. Its historic sites include Golconda For</p>
+      <div1><br>Mumbai</br></div1>
+
+    <p class="c">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.</p>
+      <p class="d"> Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.</p>
+
+      <div2><br>Jaipur</br></div2>
+      
+<p class="e">Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. </p>
+<p class="f">At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex. With gardens, courtyards and museums, part of it is still a royal residence</p>  
+
+      <div3><br>Bengaluru</br> </div3>
+
+      <p class="g">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</p>
+      <p class="h">Former royal residences include 19th-century Bangalore Palace, modeled after England’s Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure </p>
+    </body>
+  </head>
+</html>
+  
+  
+<!--Exercise 1.5: Create an ordered list and change the background colour to yellow for the selected list items using descendent selectors. -->
+<br><h1>Exercise 1.5 descendent selectors </br> </h1>
+  <hr></hr>
+
+  <html>
+    <head>
+      <style>
+        span ol {background-color:yellow}
+      </style>
+      <body>
+  <span>        <ol>
+          <li>HYDERABAD</li>
+          <li>PUNE</li>
+<li>JAIPUR</li>
+          <li>MUMBAI</li>
+          <li>GUNTUR</li>
+          <li>VIJAYAWADA</li>
+        </ol></span>
+      </body>
+    </head>
+  </html>
+<!--Exercise 1.6: Create 3 links and using pseudo selector, change the colours of the link when it is active, visited, hover. -->
+
+<br><h1>Exercise 1.6 pseudo selectors  with class attribute </br> </h1>
+  <hr></hr>
+ <html>
+<head>
+<link href="pseudo.css" rel="pseudo">
+</head>
+<style>
+.a:visited{color:red}
+.a:hover{color:green}
+.a:active{color:yellow}
+
+.b:visited{color:red}
+.b:hover{color:green}
+.b:active{color:yellow}
+
+.c:visited{color:red}
+.c:hover{color:green}
+.c:active{color:yellow}
+</style>
+    <body>
+      <a class="a" href="https://www.bitlabs.in/">Bitlabs</a>
+      <p><a class="b" href="https://www.youtube.com/">youtube</a>
+      </p>
+<p><a class="c" href="https://www.google.com/">google</a>
+   </p> </body>
+  </html>
+
+
+
+
+
+
+ 

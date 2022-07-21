@@ -1,0 +1,15 @@
+<html>
+      <head>
+           <h3>Para useing class attribute </h3>
+        <link href="classattribute.css" rel="classattribute">
+        <body>
+          <p class="a">Avul Pakir Jainulabdeen Abdul Kalam (/ˈɑːbdəl kəˈlɑːm/ (listen); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th President of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the 'Missile Man of India' for his work on the development of ballistic missile and launch vehicle technology.[</p>
+     
+          
+          <p class="b">Kalam was elected as the 11th president of India in 2002 with the support of both the ruling Bharatiya Janata Party and the then-opposition Indian National Congress. </p>
+
+          <p class="c">While delivering a lecture at the Indian Institute of Management Shillong, Kalam collapsed and died from an apparent cardiac arrest on 27 July 2015, aged 83.[7] </p>
+        </body>
+      </head>
+    </html>
+ 

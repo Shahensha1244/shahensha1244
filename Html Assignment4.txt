@@ -1,0 +1,177 @@
+
+    
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to GitHub. -->
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset=”utf-8”>
+<!--Exercise 1.1: Using six heading tags display names of fruits. Logic is the more you like the fruit the bigger it should be.--> 
+<h4>Exercise 1.1</h4>
+ <hr> <h1>APPLE</h1>
+  <h2>GRAPE</h2>
+  <h3>BANANA</h3>
+  <h4>GUVA</h4>
+  <h5>STRABERRY</h5>
+  <h6>WATERMELON</h6></hr>
+  
+<!--Exercise 1.2:  Describe about your family with each one’s name as heading followed by a three to four lines paragraph about them.--> 
+
+  <br>
+  <h1>Exercise 1.2</h1>
+  <hr></hr><h4>My Father Late Mr. Sk Usman</h4>
+  My father is a Medical Practioner. 
+  <p>He had 30years experince </p>
+  <p>He is very hard working and humble </p>
+<h4>My Mother SK Jareena</h4>
+  <p>She is Home maker</p>
+  <p>She cooks well</p>
+  <p>She is care me lot</p>
+  <h4>My Brother Mr. Sk Irfan</h4>
+  My Brother is working for BYJU'S
+  <p>He Is now 29</p>
+  <p>He support me every time </p>
+  <p>He stay in Hyderabad</p>
+  <h4>My Wife Mrs.Sk Rehana</h4>
+  <p>She work for Accenture</p>
+  <p>She have 7 years IT Experirence</p>
+  <p>She is care me lot</p>
+
+  </br>
+<!--Exercise 1.3: Display ordered list of Phone brands you prioritise.-->
+ 
+ <br>
+  <h1>Exercise 1.3</h1><hr></hr>
+  <ol>
+  <li>I Phone</li>
+  <li>Nokia</li>
+  <li>Oppo</li>
+  <li>Samsung</li>
+  <li>Blackberry</li>
+</ol></br>
+<!--Exercise 1.4: Display unordered list of cars you prefer.--> 
+<br>
+  <h1>Exercise 1.4</h1><hr></hr>
+  <ul>
+  <li>Benz</li>
+  <li>Maruthi</li>
+  <li>Audi</li>
+  <li>Kia</li>
+  <li>Lamborghini</li>
+  <li>Ferrari</li>
+  <li>Rolls-Royce</li>
+</ul>
+
+</br>
+<!--Exercise 1.5: Describe any five brands of soft drinks which you like the most used and use dd,dt,dl tags to five brands-->
+  <br> <h1>Exercise 1.5</h1><hr></hr><dl>
+     <dt><h3>Coca-Cola</h3></dt> 
+  <dd>
+    
+    Coca-Cola has been the most popular soda brand in the U.S. and around the world for decades, and it continued its dominance last year.
+  </dd>
+     </dl>
+<dl>
+  <dt>
+    <h3>
+      Pepsi
+    </h3>
+  </dt>
+
+  <dd>
+    Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by Caleb Bradham and introduced as Brad's Drink
+  </dd></dl>
+<dl>
+  <dt><h3>Red Bull</h3></dt>
+  <dd>
+    Red Bull is a brand of energy drinks sold by Austrian company Red Bull GmbH. With 38% market share, it is the most popular energy drink brand as of 2019.
+  </dd>
+</dl>
+  <dl>
+    <dt><h3>Nescafé</h3></dt>
+  <dd>
+    Nescafé is a brand of coffee made by Nestlé. It comes in many different forms. The name is a portmanteau of the words "Nestlé" and "café".
+  </dd>
+</dl>
+  <dl>
+    <dt><h3>Sprite</h3></dt>
+  <dd>
+    Sprite is a colorless, lemon and lime-flavored soft drink created by The Coca-Cola Company. It was first developed in West Germany in 1959 as Fanta Klare ...
+  </dd>
+   </dl>
+
+</br>
+<!--Exercise 1.6: Display any Image of Car in a web page and add alternate text for image.--> 
+<br><br><br><br><h1>Exercise 1.6</h1><hr></hr><img src="lancer.jpg" alt="Lancer car">
+</br></br></br></br>
+
+
+
+  
+<!--Exercise 1.7: Display five people's names along with their age and city in a tabular format.-->
+<br><br><br><br> 
+  
+  <table class="People Details" align="left"</table>
+  <h4>
+    <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  </h4>
+  <tr>
+    <td> Shahensha  </td>
+    <td> 31   </td>
+    <td> Hyderabad   </td>
+  </tr>
+    <tr>
+    <td> Rehana    </td>
+    <td> 29    </td>
+    <td> Vijayawada    </td>
+  </tr>
+  <tr>
+    <td> Irfan    </td>
+    <td> 29    </td>
+    <td> Banglore    </td>
+  </tr>
+  <tr>
+    <td> Faizaan    </td>
+    <td> 2    </td>
+    <td> Vijayawada   </td>
+  </tr>
+  <tr>
+    <td> Jareena    </td>
+    <td> 50    </td>
+    <td> Guntur   </td>
+  </tr>
+</br></br></br></br>
+<!--Exercise 1.8: Create two html links to navigate to YouTube and bitLabs website.-->
+<br><h1>Exercise 1.8</h1><hr></hr>
+ <a href="https://www.youtube.com">YouTube</a>
+  </br>
+<br><br>
+  <a href="https://www.bitlabs.in/">Bitlabs</a>
+  
+  </br></br>
+<!--Exercise 1.9: Describe any smart phone with image and features by using HTML Tags.-->
+<br><h1>Exercise 1.9 </h1><hr></hr><h3>Iphone 13 <img src="iphone13_copy_copy_1_1.webp" height="200" width="120" alt="Iphone13"></h3></br>
+
+<br><h4>Features:</h4>
+  <ul>
+    <li>15.4 cm (6.1"), Super Retina XDR</li>
+    <li>128GB ROM | iOS 15</li>
+    <li>Hexa-Core A15 Bionic Chip Processor</li>
+    <li>R: 12MP + 12MP | F: 12MP</li>
+    <li>Proximity Sensor | Facial Unlock</li>
+  </ul></br>
+
+  <br><br><br><br>  <h1>Exercise 1.7</h1><hr></hr>
+<!--Exercise 1.10: Create a sample bill in table format.-->
+
+
+  
+
+<!--Click on preview link to see output of all exercises and push into GitHub-->
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+
+
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!-- Exercise 1.1:  Create a form with input fields such as first name, last name, email and Password.  -->
+<html>
+  <head>
+    <h1>Exercise 1.1:  Create a form with input fields such as first name, last name, email and Password.<hr></h1>
+    <body>
+      <form>
+        <table>
+          <tr>
+            <td>
+        <label>First Name : </label>
+            <input type="text" name="fname" required>
+          </td></tr><br/>
+          <tr>  
+          <td><br/>
+        <label>Last Name : </label>
+            <input type="text" name="lname" required>
+              </td>
+          </tr>
+          <tr>
+            <td><br/><label>Email : </label>
+            <input type="email" name="email" required ></td>
+          </tr>
+          <tr>
+            <td><br/><label>Password : </label>
+            <input type="password" name="pwd" size="15" maxlength="30" required ></td>
+          
+          </table>
+      </form>
+    </body>
+  </head>
+</html>
+<!-- Exercise:1.2 : create multi-line input text used to take Address in existing form  -->
+
+  <html>
+    <head>
+      <br/><br/><h1>Exercise 1.2:  create multi-line input text used to take Address in existing form <hr></h1>
+       <body>
+      <form>
+      
+        <table>
+          <tr>
+            <td>
+        <label>First Name : </label>
+            <input type="text" name="fname" required>
+          </td></tr><br/>
+          <tr>  
+          <td><br/>
+        <label>Last Name : </label>
+            <input type="text" name="lname" required>
+              </td>
+          </tr>
+          <tr>
+            <td><br/><label>Email : </label>
+            <input type="email" name="email" required ></td>
+          </tr>
+          <tr>
+            <td><br/><label>Password : </label>
+            <input type="password" name="pwd" size="15" maxlength="30" required ></td></tr>
+
+            <tr>
+              <td><br/> <lable> Address : </lable> <br/> 
+              <br/><textarea rows="4" cols="30" > Enter your Address.
+              </textarea>
+              </td>
+               </tr>
+             
+          </table>
+    </form>
+    </body>
+      
+    </head>
+  </html>
+<!-- Exercise: 1.3 : Create a list of checkboxes which illustrates hobbies  -->
+<html>
+  <head>
+    <br/><h1 >Exercise: 1.3 : Create a list of checkboxes which illustrates hobbies   </h1><hr/>
+  </head>
+  <body>
+    <form>
+      <table style="font-size:20px";>
+       <tr> <td><lable style="font-size:40px";>Hobbies : </lable></td></tr>
+       <tr>
+        <td><br/>
+          <input type="checkbox">Singing
+          </td>
+       
+         </tr>
+         
+        <tr>
+        <td>
+          <input type="checkbox">Dancing    
+          </td>
+       
+         </tr>
+          <tr>
+        <td>
+          <input type="checkbox">Coocking</td>
+       
+         </tr>
+        
+        <tr>
+        <td>
+          <input type="checkbox">Reading Books
+        </td>
+       
+         </tr>
+         <tr>
+        <td>
+          <input type="checkbox">Playing Games
+      </td>
+       
+         </tr>
+ 
+      </table>
+    </form>
+  </body>
+</html>
+  
+<!-- Exercise: 1.4 : Create a list radio buttons for group of colours --> 
+
+  <html>
+    <head>
+      <h1>Exercise: 1.4 : Create a list radio buttons for group of colours </h1><hr/>
+      <body>
+        <form>
+          <table style="font-size:20px";>
+            <tr>
+              <td><lable style="font-size:40px";>Group of colors : </lable></td>
+            </tr>
+
+            <div >
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Red">Red </td>
+            </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Blue">Blue </td>
+            </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Black">Black </td>
+              <tr>
+              <td><br/><input type="radio" name="colors" value="Green">Green </td>
+              </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="White">White </td>
+            </tr>
+            </tr>
+              </div>
+          </table>
+        </form>
+      </body>
+      
+    </head>
+  </html>
+<!-- Exercise: 1.5  Create file input element to upload your resume. -->
+<html>
+  <head>
+    <h1>Exercise: 1.5  Create file input element to upload your resume</h1><hr/>
+    <body>
+      <form>
+        <p style="font-size:20px";>
+      Upload your Resume : </p>
+        <table >
+
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!-- Exercise 1.1:  Create a form with input fields such as first name, last name, email and Password.  -->
+<html>
+  <head>
+    <h1>Exercise 1.1:  Create a form with input fields such as first name, last name, email and Password.<hr></h1>
+    <body>
+      <form>
+        <table>
+          <tr>
+            <td>
+        <label>First Name : </label>
+            <input type="text" name="fname" required>
+          </td></tr><br/>
+          <tr>  
+          <td><br/>
+        <label>Last Name : </label>
+            <input type="text" name="lname" required>
+              </td>
+          </tr>
+          <tr>
+            <td><br/><label>Email : </label>
+            <input type="email" name="email" required ></td>
+          </tr>
+          <tr>
+            <td><br/><label>Password : </label>
+            <input type="password" name="pwd" size="15" maxlength="30" required ></td>
+          
+          </table>
+      </form>
+    </body>
+  </head>
+</html>
+<!-- Exercise:1.2 : create multi-line input text used to take Address in existing form  -->
+
+  <html>
+    <head>
+      <br/><br/><h1>Exercise 1.2:  create multi-line input text used to take Address in existing form <hr></h1>
+       <body>
+      <form>
+      
+        <table>
+          <tr>
+            <td>
+        <label>First Name : </label>
+            <input type="text" name="fname" required>
+          </td></tr><br/>
+          <tr>  
+          <td><br/>
+        <label>Last Name : </label>
+            <input type="text" name="lname" required>
+              </td>
+          </tr>
+          <tr>
+            <td><br/><label>Email : </label>
+            <input type="email" name="email" required ></td>
+          </tr>
+          <tr>
+            <td><br/><label>Password : </label>
+            <input type="password" name="pwd" size="15" maxlength="30" required ></td></tr>
+
+            <tr>
+              <td><br/> <lable> Address : </lable> <br/> 
+              <br/><textarea rows="4" cols="30" > Enter your Address.
+              </textarea>
+              </td>
+               </tr>
+             
+          </table>
+    </form>
+    </body>
+      
+    </head>
+  </html>
+<!-- Exercise: 1.3 : Create a list of checkboxes which illustrates hobbies  -->
+<html>
+  <head>
+    <br/><h1 >Exercise: 1.3 : Create a list of checkboxes which illustrates hobbies   </h1><hr/>
+  </head>
+  <body>
+    <form>
+      <table style="font-size:20px";>
+       <tr> <td><lable style="font-size:40px";>Hobbies : </lable></td></tr>
+       <tr>
+        <td><br/>
+          <input type="checkbox">Singing
+          </td>
+       
+         </tr>
+         
+        <tr>
+        <td>
+          <input type="checkbox">Dancing    
+          </td>
+       
+         </tr>
+          <tr>
+        <td>
+          <input type="checkbox">Coocking</td>
+       
+         </tr>
+        
+        <tr>
+        <td>
+          <input type="checkbox">Reading Books
+        </td>
+       
+         </tr>
+         <tr>
+        <td>
+          <input type="checkbox">Playing Games
+      </td>
+       
+         </tr>
+ 
+      </table>
+    </form>
+  </body>
+</html>
+  
+<!-- Exercise: 1.4 : Create a list radio buttons for group of colours --> 
+
+  <html>
+    <head>
+      <h1>Exercise: 1.4 : Create a list radio buttons for group of colours </h1><hr/>
+      <body>
+        <form>
+          <table style="font-size:20px";>
+            <tr>
+              <td><lable style="font-size:40px";>Group of colors : </lable></td>
+            </tr>
+
+            <div >
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Red">Red </td>
+            </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Blue">Blue </td>
+            </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="Black">Black </td>
+              <tr>
+              <td><br/><input type="radio" name="colors" value="Green">Green </td>
+              </tr>
+            <tr>
+              <td><br/><input type="radio" name="colors" value="White">White </td>
+            </tr>
+            </tr>
+              </div>
+          </table>
+        </form>
+      </body>
+      
+    </head>
+  </html>
+<!-- Exercise: 1.5  Create file input element to upload your resume. -->
+<html>
+  <head>
+    <h1>Exercise: 1.5  Create file input element to upload your resume</h1><hr/>
+    <body>
+      <form>
+        <p style="font-size:20px";>
+      Upload your Resume : </p>
+        <table >
+        <tr>
+        <td> <input type="file" style="font-size:20px";name="upload your resume" multiple="multiple"/>
+          
+        <input type="submit" style="font-size:20px"; value="upload"/>
+         </td> </tr>
+          </table>
+      </form>
+    </body>
+  </head>
+</html>
+        <tr>
+        <td> <input type="file" style="font-size:20px";name="upload your resume" multiple="multiple"/>
+          
+        <input type="submit" style="font-size:20px"; value="upload"/>
+         </td> </tr>
+          </table>
+      </form>
+    </body>
+  </head>
+</html>

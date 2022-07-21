@@ -1,0 +1,188 @@
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completing all questions, submit the assignment to gitHub. -->
+<html>
+  <head>
+    
+
+<!-- Exercise 1.1:  Use six heading tags to display the names of fruits and change the colour of the fruit accordingly.
+    <body>
+    
+    
+<!-- Exercise 1.2: Display text in the heading and para by changing the font size, font-weight. -->
+<h1>Exercise 1.1 </h1>
+    <hr></hr>
+    <html>
+      <head>
+      <style>
+        h1.a{color:red}
+        h2.b{color:#AD6271}
+        h3.c{color:#CFF80F}
+        h4.d{color:lightgreen}
+        h5.e{color:#DF3957}
+        h6.f{color:#F1E10A}
+      </style>
+        <body>
+    <h1 class="a">APPLE</h1>
+  <h2 class="b">GRAPE</h2>
+  <h3 class="c">BANANA</h3>
+  <h4 class="d">GUVA</h4>
+  <h5 class="e">STRABERRY</h5>
+  <h6 class="f">MANGO</h6>
+     </body>
+      </head>
+      </html>
+
+
+    <h1>Exercise 1.2 </h1>
+    <hr></hr><br><br>
+
+
+    <html>
+      <head>
+        <style>
+          p{font-size:20px;font-style:italic;font-weight:normal;font-family:Times New Roman;}
+        </style>
+        <h3 style="font-size:30px;font-weight:bold">HEADING: SHAHENSHA LEARNING CSS </h3>
+        <P>
+         <strong> PARAGRAPH </strong>:Learn CSS online at your own pace. Start today and improve your skills. Join millions of learners from around the world already learning on Udemy. Risk free learning. Advance your career. Real-world experts. 30-day guarantee. Lifetime access. Learn on your schedule.
+        </P>
+        <body>
+          
+        </body>
+      </head>
+    </html>
+    
+    
+
+    
+<!-- Exercise 1.3: Display text in the heading and para using “class” attribute in CSS. -->
+<br><br><h1>Exercise 1.3 </h1>
+    <hr></hr>
+    <html>
+      <head>
+           <h3>Heading:Para useing class attribute </h3>
+       <style>.a,.b,.c {font-style:normal;}
+       </style>
+        <link href="classattribute.css" rel="classattribute">
+        <body>
+          <p class="a">Avul Pakir Jainulabdeen Abdul Kalam (/ˈɑːbdəl kəˈlɑːm/ (listen); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th President of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the 'Missile Man of India' for his work on the development of ballistic missile and launch vehicle technology.[</p>
+     
+          
+          <p class="b">Kalam was elected as the 11th president of India in 2002 with the support of both the ruling Bharatiya Janata Party and the then-opposition Indian National Congress. </p>
+
+          <p class="c">While delivering a lecture at the Indian Institute of Management Shillong, Kalam collapsed and died from an apparent cardiac arrest on 27 July 2015, aged 83.[7] </p>
+        </body>
+      </head>
+    </html>
+ 
+
+    
+<!-- Exercise 1.4: Apply CSS for the HTML elements using “class” and “Id” attributes. -->
+    <br><br><h1>Exercise 1.4 </h1>
+    <hr></hr>
+
+    
+<html>
+  <head>
+    <style>
+      .one{font-style:italic;font-weight:bold;font-size:30px;text-align:center;text-shadow:2px 2px;background-color:green;color:white;}
+      .two{font-style:normal;font-weight:bold;font-size:20px;background-color:yellow;text-align:left;color:red;text-shadow:1px 1px 1px;}
+      #a{font-style:italic;font-weight;bold;font-size:30px;font-family:Times New Roman;font-shadow:2px 1px;background-color:blue;color:ghostwhite;text-align:right; }
+      #b{font-style:italic;font-weight:bold;font-size:30px;font-family:Times New Roman;font-shadow:2px 1px;background-color:black;color:white;text-align:center;}
+    </style>
+    <body>
+      <div>
+      <p class="one">class attribute1</p>
+      <p class="two">class attribute2</p>
+      <p id="a">id attribute</p>
+      <p id="b">id attribute</p>
+        </div>
+    </body>
+  </head>
+</html>
+<!-- Exercise 1.5: Display a para graph and apply margin (right, left, bottom, top) property. use id property for this paragraph-->
+<br><br><h1>Exercise 1.5 </h1>
+    <hr></hr><br><br>
+    <html>
+      <head>
+        <style>
+        #margin{margin:60px 20% -30px 15px ;
+            font-style:normal; }
+        </style>
+        <body>
+        <p id="margin">In CSS, a margin is the space around an element's border, while padding is the space between an element's border and the element's content. Put another way, the margin property controls the space outside an element, and the padding property controls the space inside an elemen</p>
+          </body>
+      </head>
+    </html>
+    
+<!-- Exercise 1.6:Display a para with text and change text colour to red. use id or class property to separate with other paragraph's-->
+<br><br><h1>Exercise 1.6 </h1>
+    <hr></hr><br><br>
+    
+    <html>
+  <head>
+  <style>
+   div{color:red;}
+  </style>
+    <div>
+    <body>
+     <p id="redcolor">The color property in CSS is used to change the color of the text. The color values can be expressed in RGB color numbers, color keywords, or in hexadecimal color numbers. This CSS property sets the foreground color of the content of an element.
+     <p id="bluecolor">The color property in CSS is used to change the color of the text. The color values can be expressed in RGB color numbers, color keywords, or in hexadecimal color numbers. This CSS property sets the foreground color of the content of an element.
+    </p>
+
+      <p id="graycolor">The color property in CSS is used to change the color of the text. The color values can be expressed in RGB color numbers, color keywords, or in hexadecimal color numbers. This CSS property sets the foreground color of the content of an element.
+      </p>
+      
+      
+    </body>
+      </div>
+  </head>
+</html>
+
+<!-- Exercise 1.7: Display text by using text-alignment property (Center, right, left).-->
+
+
+    <br><br><h1>Exercise 1.7 </h1>
+    <hr></hr><br><br>
+
+    <html>
+
+      <head>
+        <style>
+          .center{text-align:center;}
+          .reight{text-align:right;}
+          .left{text-align:left;}
+        </style>
+        <body>
+          <p class="center">
+            The text-align property specifies the horizontal alignment of text in an element.
+          </p>
+          <p class="reight">Select the text that you want to align.
+On the Home tab, in the Paragraph group, click Align Left or Align Right .
+          </p>
+          <p class="left">For example, in a paragraph that is left-aligned (the most common alignment), text is aligned with the left margin.
+          </p>
+        
+        </body>
+      </head>
+    </html>
+<!-- Exercise 1.8: Display a link with background colour as light Gray with navigation to google page.-->
+<br><br><h1>Exercise 1.8 </h1>
+    <hr></hr><br><br>
+<html>
+  <head>
+    <style>
+      a{background-color:lightgray;}
+    </style>
+    <body>
+<h1><a href="https://www.google.com/">Google
+</a></h1>
+      
+    </body>
+  </head>
+</html>
+    
+  </body>
+  </head>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=”utf-8”>
+<title>
+MY PERSONAL DATA
+  
+
+</title>
+  
+
+
+</head>
+
+
+
+<body>
+
+
+<h1>   SHAIK SHAHENSHA                             </h1>
+
+<img src="https://lh3.googleusercontent.com/tay_fnHTckEJbYkGSrcC2JrtIFq5ao8wQSUaTBAC7K0Gq4vfLi5rBXCmuSusQEJ_ca7xndyjj832-NA5FG4Vpm1v5joXQJ1sLH9D-eh6aUugcTgZW4QVQAJV-aBbfvEq-kp3BAA7KwQ9j7jbF6PVc9phtkzxI6dm22M9kY6NRtXc_csnlBGHW7p4BB3Nm9_9HHQhbyvQxgrVTZGqZmdphjxcBawXBY4IDRCM0pjaQHV1OIjWznOrnl3T--i6MwYxhDfLU50jhF7-0FJmfv-J23pdQT2LTPtjmIwIkYG68-PmU93BBICbAcNiPF1OXb1CUsFMVDpxKjzhQbj9HVF77ZaKlMrcPdT_SFWyiuSUOJhC8nsr0DWxMblO3bBYi-ORi9De1dPgGa10a0uRF70iqP1nAcC0_NE7LbAhq68yB4vYM5Ek9_IE2TgI3naJXlEiqNCcWok6-uYwWlh8gMbl9AxNIpW_DdRCk8GY2q57ahaKtqO09cwlcAU-J4g6vNba_W5ZBqYaaR2BL3kqv34cDQGUS1Nc0bSLLjBFSYA0ER-CLOb3RGVvcvJRAfrDx8rM0ouWdnqA_dGjB_xBKXkZ9Y0EyBXaMeFlFcHEgqw7XPjW8Nqv40Qa80kxgPHMcSVsDlCNFTzkF6WdEhxyfiIvOGyHHe84adbityGmFoMZo03dCfBvu09SEb7x7o7d65cFM5dy2C5DVUTOBplHgu4h3HKzAKy1N3hvLz_j82WKDyI671v-8Xkf0zuKlr25jfc=w504-h657-no?authuser=0"width="150" height="160" >
+
+<p> my self shahensha.I am from hyderabad .I completed Btech in Information technology in the year 2012                                             </p>
+<p>My Hobbies are</p>
+  
+
+
+<ul>
+<li>
+  Reading Books
+
+</li>
+<li>
+  Youtube Browsing
+
+</li>
+<li>
+  
+  Waching Movies
+</li>
+</ul>  
+  
+  <p> Please find the Resume useing link below                         </p>
+
+
+
+<a href="shahensha updated resume2022 - Copy.pdf.docx">MY RESUME</a>
+</body>
+</html>

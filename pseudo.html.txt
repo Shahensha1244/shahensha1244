@@ -1,0 +1,11 @@
+<html>
+<head>
+<link href="pseudo.css" rel="pseudo">
+</head>
+    <body>
+      <a class="a" href="https://www.bitlabs.in/">Bitlabs</a>
+      <p><a class="b" href="https://www.youtube.com/">youtube</a>
+      </p>
+<p><a class="c" href="https://www.google.com/">google</a>
+   </p> </body>
+  </html>

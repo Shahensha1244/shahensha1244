@@ -1,0 +1,97 @@
+!--Exercise 3 In this HTML page, Create a form with all the fields as shown below. 
+
+1. First name
+2. Middle name
+3. Last name
+4. gender
+5. Phone number
+6. Date of Birth
+7. Current Address
+8. Qualification
+9. Email id
+10. Register and clear buttons
+11. Add validations for name, Email id, Qualification. and phone number should take only 10 numbers
+
+After completion of this form click on preview link to see your output and submit the assignment to gitHub. --
+
+html
+body
+   fieldset
+     form
+       style
+         table{font-size20px;margin20px;background-colorlightgreen}
+         style
+       table
+       tr
+       tdlabelFirst name   label
+         input type=text name=fname size=15 maxlength=30 required
+         tdtr
+         tr
+           
+       tdbrlabelMiddle Name   label
+         input type=text name=mname size=15 maxlength=30  required=required  td
+         tr
+         tr
+           tdbrlabelLast Name   label
+         input type=text name=lname size=15 maxlength=30   required=required  td
+         tr
+         tr
+           tdbrlabelGender label
+           input type=radio name=Female value=genderFemale
+             input type=radio name=male value=genderMale
+             input type=radio name=Others value=genderOthers
+           td
+         tr
+         tr
+           tdbrlabelPhone number  label
+           input type=tel name=phone number maxlength=10td
+           
+         tr
+         tr
+           td
+             brlabelDate of Birth label
+             input type=date name=dob
+           td
+         tr
+         trtdbr
+           labelCurrent Address  labeltd
+           tdtextarea style= position absolute;
+  left 200px;
+  width 150px;height70px ;
+   rows=10 cols=30Enter Address here textarea
+           td
+         tr
+         tr
+           tdbrbrbr
+             labelQalification   label
+             select class=text
+               option---select---option
+               optionPost-Graduationoption
+               optionGraduationoption
+               optionUnder-Graduationoption
+             select
+           td
+         tr
+         tr
+           td
+             brlabelEmail Id  label
+             input type=email name=emailid
+             
+           td
+         tr
+         tr
+           td
+             style
+               .registerbtn{font-size20px}
+               .Clearbtn{font-size20px;margin50px}
+             style
+             button type=submit class=registerbtn Registerbutton
+                        button type=submit class=Clearbtn Clearbutton
+           td
+         tr
+         table
+     form
+   fieldset     
+      
+body
+html

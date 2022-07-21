@@ -1,0 +1,11 @@
+.a:visited{color:red}
+.a:hover{color:green}
+.a:active{color:yellow}
+
+.b:visited{color:red}
+.b:hover{color:green}
+.b:active{color:yellow}
+
+.c:visited{color:red}
+.c:hover{color:green}
+.c:active{color:yellow}

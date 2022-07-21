@@ -1,0 +1,225 @@
+<!--Exercise 2: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!-- Exercise 2.1: Display text and apply CSS by using text-decoration property. -->
+
+  <h1>Exercise 2.1 </h1>
+    <hr></hr>
+  
+<html>
+  <head>
+    <style>
+      .underline{text-decoration:underline;}
+      .overline{text-decoration:overline;}
+      .line-through{text-decoration: line-through;;}
+    </style>
+   <h4> <body>
+     <p class="underline"><strong>underline:</strong>The text-decoration shorthand CSS property sets the appearance of decorative lines on text. </p><br>
+     
+      <p class="overline"><bold>overline:</bold>The text-decoration shorthand CSS property sets the appearance of decorative lines on text.
+      </p><br>
+     
+      <p class="line-through"><strong>line-through:</strong> The text-decoration shorthand CSS property sets the appearance of decorative lines on text.
+      </p><br>
+      
+    </body></h4>
+  </head>
+</html>
+  
+  
+<!-- Exercise 2.2: Display text in paragraphs and apply text transformation property as none, uppercase, lowercase. -->   
+
+
+  <h1>Exercise 2.2 </h1>
+    <hr></hr>
+  
+<html>
+  <head>
+    <style>
+      .none{text-transform:none;}
+      .uppercase{text-transform:uppercase;}
+      .lowercase{text-transform:lowercase;}
+      .captalize{text-transform:capitalize;}
+    </style>
+    <h3><body>
+      <p class="none">text transformation property as none
+      </p>
+      <p class="uppercase">text transformation property as uppercase
+      </p>
+      <p class="lowercase">text transformation property as lowercase</p>
+      <p class="captalize">text transformation property as captalize
+    </body></h3>
+  </head>
+</html>
+  
+<!-- Exercise 2.3:  By using text-indent property of 50px, display text in the paragraph. Use id property to sepate with other text--> 
+
+
+  <h1>Exercise 2.3 </h1>
+    <hr></hr>
+
+  <html>
+    <head>
+      <style>
+        #textindent, #text-indent1, #text-indent2{text-indent:50px;}
+      </style>
+      <h3>text indent 50px</h3><body>
+        <p id="textindent">Indenting the first line of paragraphs is kind of old fashioned and can evoke that feel. It could be used in lieu of spacing after paragraphs as an alternative visual indicator, although spacing is probably more readable in general.</p>
+        <p id="text-indent1">Indenting the first line of paragraphs is kind of old fashioned and can evoke that feel. It could be used in lieu of spacing after paragraphs as an alternative visual indicator, although spacing is probably more readable in general.</p>
+        <p id="text-indent2">Indenting the first line of paragraphs is kind of old fashioned and can evoke that feel. It could be used in lieu of spacing after paragraphs as an alternative visual indicator, although spacing is probably more readable in general.</p>
+        
+      </body>
+    </head>
+  </html>
+
+<!-- Exercise 2.4 : Using letter spacing property with a value of 5px display the text. Use id property to sepate with other text-->
+<h1>Exercise 2.4 </h1>
+    <hr></hr>
+  <html>
+    <head>
+      <h3>letter spacing property with a value of 5px </h3>
+      <style>
+        #latterspacing,#latterspacing1,#latterspacing2 {letter-spacing:5px;}
+      </style>
+      <body>
+        <p id="latterspacing">Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931, to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. His father Jainulabdeen Marakayar was a boat owner and imam of a local mosque.</p>
+        <p id="latterspacing1">After graduating from the Madras Institute of Technology in 1960, Kalam joined the Aeronautical Development Establishment of the Defence Research and Development Organisation (by Press Information Bureau, Government of India) as a scientist after becoming a member of the Defence Research & Development Service (DRDS). He started his career by designing a small hovercraft, but remained unconvinced by his choice of a job at DRDO.
+        </p>
+        <p id="latterspacing2">Kalam was invited by Raja Ramanna to witness the country's first nuclear test Smiling Buddha as the representative of TBRL, even though he had not participated in its development. In the 1970s, 
+        </p>
+      </body>
+    </head>
+  </html>
+<!-- Exercise 2.5: Apply line height of 30px for the paragraph. Use class property to separate with other paragraph's -->
+
+<h1>Exercise 2.5 </h1>
+    <hr></hr>
+
+  <html>
+    <head>
+      LINE HEIGHT 30PX :
+       </head>
+    <style>
+      .lineheight,.lineheight1,lineheight2{line-height:30px}
+    </style>
+      <body>
+        <p class="lineheight">Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931, to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. His father Jainulabdeen Marakayar was a boat owner and imam of a local mosque.</p>
+        <P class="lineheight1">After graduating from the Madras Institute of Technology in 1960, Kalam joined the Aeronautical Development Establishment of the Defence Research and Development Organisation (by Press Information Bureau, Government of India) as a scientist after becoming a member of the Defence Research & Development Service (DRDS). He started his career by designing a small hovercraft, but remained unconvinced by his choice of a job at DRDO.
+        </P>
+        <p class="lineheight2">Kalam was invited by Raja Ramanna to witness the country's first nuclear test Smiling Buddha as the representative of TBRL, even though he had not participated in its development. In the 1970s,</p>
+        
+      </body>
+   
+  </html>
+  
+<!-- Exercise 2.6: Create a login form and style the form. Use br tag before creation of login form  -->
+    <h1>Exercise 2.6 </h1>
+    <hr></hr>   
+
+  <html>
+    <head>
+     
+      <style>
+      .loginForm{
+        height:300px;width:500px;
+        background-color:lightblue;
+        border: 1px solid black ;
+        padding:20px;
+      }
+        .a{text-align:center;}
+        .FormUserdata{
+          width:50%;margin-left:100px;
+          text-align:center;
+        }
+        .Un{width:50%;float:left}
+        input{width:50%;float:right}
+        .Pwd{}
+        .submitButton{
+          margin:10px 0 0 10px;width:100px;background-color:lightgreen;
+        
+        }   
+        .submitDIV{  text-align:center;}
+      </style>
+      <body>
+        
+        <form class="loginForm">
+        <h3 class="a">Welcome to Login Form</h3>
+        <div class="FormUserdata">
+          <label class="Un">User Name</label>
+          <input type="text"><br><br>
+          <label class="Pwd">Password</label>
+          <input type="password"><br>
+          <div class="submitDIV">
+          <input type="Submit" class="submitButton"></div>
+      </div>
+       </form> 
+      </body>
+    </head>
+  </html>
+<!-- Exercise 2.7: Align text using float left, right property. Use class property to separate with other text-->
+<h1>Exercise 2.7 </h1>
+    <hr></hr>
+
+  <html>
+    <head>
+      
+      <style>
+        .float-left{float:left;}
+        .float-right{float:right;}
+         .textleft{text-align:left}
+      </style>
+      <body>
+<h3 class="textleft"> Align text using float : </h3>
+        <p class="float-left">float-left : Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist who served as the 11th President of India from 2002 to 2007.
+        </p>
+        <p class="float-right">float-right: Kalam was elected as the 11th president of India in 2002 with the support of both the ruling Bharatiya Janata Party and the then-opposition Indian National Congress.
+        </p>
+        
+      </body>
+    </head>
+  </html>
+<!-- Exercise 2.8:  Apply styles for the text using absolute and relative positions. Use class property to separate with other text-->
+<br>
+  <br>  <br>  <br>  <br>
+  <br>
+  <h1>Exercise 2.8 </h1>
+    <hr></hr> 
+
+  <html>
+    <head>
+      <style>
+        .rel{position:absolute;}
+        .abs{position:relative;}
+      </style>
+      <body>
+        <p class="abs">Avul Pakir Jainulabdeen Abdul Kalam (/ˈɑːbdəl kəˈlɑːm/ (listen); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th President of India from 2002 to 2007. </p>
+        <p class="rel">He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) </p>
+      </body>
+    </head>
+  </html>
+  
+
+<!-- Exercise 2.9: Display Hello World! with image as the background. -->
+<br><br>
+  <br>
+  <br>
+  <h1>Exercise 2.9 </h1>
+    <hr></hr>
+  
+  <html>
+    <head>
+      <style>
+        
+        .bgimage{background-image: url('image.jpg');color:red;height:800px;width:600px;background-repeat: no-repeat;font-size:70px;padding:120px;}
+      </style>
+      <body>
+        <h1 class="bgimage">hello world</h1>
+        
+      </body>
+    </head>
+  </html>
+</body>
+</html>
