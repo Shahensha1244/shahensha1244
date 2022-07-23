@@ -1,0 +1,21 @@
+public class Largestnumber{
+public static void main(String[] args)  {
+int a=5, b=9, c=10 ;
+
+  if (a>=b && a>=c)
+  {
+    System.out.println("print a is largest number = "+a);
+    }
+ 
+  if (b>=c && b>=a)
+     {
+    System.out.println("print b is the largest number= "+b);
+  }
+    
+  else
+    System.out.println("print c is the largest number = "+c);
+    
+}  
+
+}
+  
