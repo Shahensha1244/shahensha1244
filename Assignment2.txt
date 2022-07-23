@@ -1,0 +1,187 @@
+
+// Write a program to print the remainder when x is divided by y where x=100 and y=4
+
+class Exercise1 {
+public static void main(String [] args){
+  int x=100;
+  int y=4;
+  int div;
+  //Declaring division value z formula z=x/y ----> z=100/4=25:
+  div=x/y;
+  
+System.out.println("z = "+div);
+  
+}
+
+
+
+}
+
+-----------------------------------------------------------------------------------------------------
+
+
+// Write a program to solve the expression w=(x*y)/z with any input values for x,y and z
+
+class Exercise2 {
+public static void main(String[] args){
+  int x=10;
+  int y=20;
+  int z=30;
+  int w;
+  // declaring x*y-->10*20=200
+
+   w=(x*y)/z;
+  System.out.println("w = "+w);
+}
+
+
+}
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+// Write a program to initialize your marks for 3 subjects and print the highest marks
+
+class Exercise3 {
+public static void main(String aregs[]){
+
+  // given marks 
+  
+  int Maths=90,Science=70,Social=99;
+  
+  
+ if (Maths>=Science && Maths>=Social)
+
+   //hear maths is grater science and social then it print maths highest marks
+ {
+   System.out.println("Maths is highest marks="+Maths);
+ }
+
+ 
+  
+if (Science>=Social && Science>=Maths)
+
+   // Hear science is grater Social and maths then print science is highest marks
+{
+  System.out.println("Science is highest marks"+Science);
+}
+  // if not print social hight marks 
+  else
+  System.out.println("Social highest marks = "+Social);
+
+  
+}
+  
+}
+
+----------------------------------------------------------------------------------------------
+
+
+// Write a program to perform bitwise AND and OR operation on x=10 and y=20
+
+class Exercise4 {
+public static void main(String args[]){
+  int x=10;
+  int y=20;
+  // x binay value 1010 y binary 10100
+
+// here True-1 false-0 bitwise "&" both as per true table no both cases are true x&y binary 00000 so the result is 0 
+  
+  System.out.println("x&y="+(x&y));
+
+  // here True-1 false-0 bitwise "|" both as per true table one case true then  true x|y binary  so the result is 11110 result is 30
+
+  System.out.println("x|y= "+(x|y));
+
+  
+}
+
+
+
+}
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+// Write a program to perform bitwise Left shift(<<) and right shift(>>) operation on x=10 and y=20
+
+class Exercise5 {
+public static void main(String args[]){
+  // Declaring integervalues 
+
+  int x=10;
+  int y=20;
+
+  // x=10 binary value is 1010  when left shift extend with 1 then the bitevalue move before next place then "10100" result is 20
+
+  //doubling each next incresing
+
+
+  System.out.println("x<<= "+(x<<1));
+
+  // x=20 binary value is 10100  when left shift extend with 1 then the bitevalue move before next place then binary out put "101000" result is 40
+    //doubling each next incresing
+  
+  System.out.println("y<< = "+(y<<1));
+
+  // doubt
+
+  System.out.println("x>> = "+(x>>1));
+
+  System.out.println("y>> = "+(y>>1));
+  
+}
+
+
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+// Complete the execute the java Program for Logical Operators
+public class Sample1{
+    
+ public static void main(String[] args) {
+     
+  //Variables Definition and Initialization
+  boolean x = true;
+  boolean y = false;
+  
+  //Logical AND --- "&&" is both x and y true then only result is true .But here both cases not true so the ---------->>result = Flase
+
+   
+  System.out.println("x && y = "+(x&&y));//Enter code here to perform Logical AND operation between x and y);
+  
+  //Logical OR------ "||" here is this case one case true is enough the condition will be true x is true so the ---->> result = True
+   
+  System.out.println("x || y = "+(x||y));//Enter code here to perform Logical OR operation between x and y);
+
+
+   // NOT "!" is can chage the condition flase to true / true to false then the ----------->>> result = False.
+  
+  //Write Logical NOT for x in println statement below
+  System.out.println("!x= "+!x);
+  
+  }
+}
+
+------------------------------------------------------------------------------------------------------------------
+
+
+// Complete and execute java Program using Ternary operator to check your eligibility to vote
+public class Sample2 {
+    public static void main (String args[]) {
+        // Variable declaration & initialization
+        int age =20;
+        // Using Ternary operator having three operands 
+        String result = (age>20) ?"true" : " false"; //Enter test condition here) ? "Enter message if condition is true" : "Enter message if condition is false";
+        //Print the result below 
+      {
+        System.out.println(result);
+      
+      }
+    }
+}
+

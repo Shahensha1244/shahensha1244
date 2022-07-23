@@ -1,0 +1,206 @@
+public class Arthamatic_operator{
+  public static void main(String args[]){
+    //variable declaration
+    int x=40;
+    int y=20;
+    int sum=0;
+    
+    //sum=x+y=40+20=60; addition
+    sum = x+y;
+    System.out.println("x+y="+sum);
+    
+    //sum= x-y=40-20=20 subtraction
+    sum = x-y;
+    System.out.println("x-y="+sum);
+
+    //sum= x*y=40*20=800 multiplication
+    sum = x*y;
+    System.out.println("x*y="+sum);
+
+    //sum= x/y=40/20=2 division
+    sum = x/y;
+    System.out.println("x/y="+sum);
+
+    //sum= x % y=40 % 20=0 modulo division
+    sum = x%y;
+    System.out.println("x%y="+sum);
+
+    //sum= ++x =40+1=41 increment
+    sum = ++x;
+    System.out.println("++x="+sum);
+
+    //sum= --x =40-1=39 decrement
+    sum = --x;
+    System.out.println("--x="+sum);
+
+  }
+}
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+//java programe for Assignment opertor
+public class Assignment_operator{
+  public static void main(String[] args){
+   //assain values 
+    String text="Tough";
+    String lang="Java";
+// useing "=" operator 
+    text+=lang;
+
+    // Display text=text+lang concatenated 
+
+    System.out.println("text=text+lang: "+text);
+
+    String a="x";
+    String b="y";
+    a+=b;
+
+    System.out.println("result : "+a);
+// Assigning with + opearator 
+    int x=10;
+    int y=20;
+
+     // Assining with  + operator x is 10  x=x+y x=10+20=30
+    
+    x +=y;
+    System.out.println("Add and assaingintergers : " +x);
+
+  
+    
+    // Assining with  - operator x is 30  x=x-y x=30-20=10
+
+    x-=y;
+    
+  System.out.println("sub and assaingintergers : " +x);
+
+  
+    
+    // Assining with  * operator x is 30  x=x*y x=10*20=200
+
+    x*=y;
+    
+  System.out.println("mul and assingintergers : " +x);
+
+   
+    
+    //Assign with / operator x is 200 x/=y 200/20=10
+
+    x/=y;
+    
+    System.out.println("Divison and assigningintergers : " +x);
+  }
+  
+}
+
+-----------------------------------------------------------------------------------------------------
+
+
+//Bitwise operator programm works on bit patteren 
+//oooo 1111 .Here true-1 and false-0
+
+public class Bitwise_operator{
+  public static void main(String[] args)
+  {
+    //declaring integer values 
+    int a =6;
+    int b =9;
+
+    // Applying "&" Bitwise operator binary value for 6 is 0110 9 is 1001  the output is 0. based on the truth table
+  
+    System.out.println("a&b ="+(a&b));
+
+    // Applying "|" Bitwise operator binary value for 6 is 0110 9 is 1001  the output is 15. based on the truth table
+    
+    System.out.println("a|b ="+(a|b));
+
+    // Applying "~" Bitwise operator binary value for a=6 binay value is 0110 the output is -7. based on the truth table ~(n+1) here n=6
+    
+    System.out.println("~a ="+(~a));
+
+    // Applying "~" Bitwise operator binary value for b=9 binay value is 1001 the output is -10. based on the truth table ~(n+1) here n=9
+
+    System.out.println("~b ="+(~b));
+
+    // Applying "&" Bitwise operator binary value for 6 is 0110 9 is 1001  the output is 15. based on the truth table
+    
+    System.out.println("a^b ="+(a^b));
+  }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// ------------  3 logical operators "&&" "||" "!" --------------------
+
+public class Logical_operator{
+  public static void main (String[] args)
+  {
+    //Declaring conditions in boolean value format
+
+   boolean x = true;
+    boolean y = false;
+
+    //Applying hear "&&" Logical operator condition true only Both statements are true
+
+    System.out.println("x && y= "+(x && y));
+    System.out.println("y && y= "+(y && y));
+    System.out.println("x && x= "+(x && x));
+//Applying hear "||" Logical operator single condition true then the final condition will true
+
+    System.out.println("x || y = "+(x||y));
+    System.out.println("x || x = "+(x||x));
+    System.out.println("y || y = "+(y||y));
+
+
+    //Applying hear "!" Logical operator here when condition true ! logical operator makes that statement false  condition false ! logical operator makes that statement true
+
+    System.out.println("x="+x);
+    System.out.println("!x="+!x);
+     
+  }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+public class Relation_operator{
+  public static void main(String args[]){
+    //declaring veriable
+    int a=5;
+    int b=6;
+    // cheking the relation with grater than
+    System.out.println("a > b=" +(a>b));
+    
+    //cheking the relation with less than
+    
+    System.out.println("a < b ="+(a<b));
+
+    //cheking the relation wih eqal 
+
+    System.out.println("a == b ="+(a==b));
+  }
+  
+}
+
+
+--------------------------------------------------------------------------------------------------
+
+
+public class Ternary_operator{
+  public static void main(String args[])
+  {
+    //declaring integer
+    int a=50;
+    //applying ternary operator format String result=(condition) ? if true  , if false
+
+    String result=(a<100) ? "true" : "false";
+    
+    System.out.println(result);
+  
+    
+  }
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------

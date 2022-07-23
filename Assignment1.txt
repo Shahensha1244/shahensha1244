@@ -1,0 +1,34 @@
+// Write a program to print your Name, Father's Name and Mailing Address in different lines
+
+class Exercise1 {
+public static void main(String args[]){
+  //print my name
+
+  System.out.println("shahensha");
+    //father name
+   System.out.println("usman");
+    //print mailing address
+    System.out.println("shahensha");
+  }
+
+
+} 
+
+-------------------------------------------------------------------------------------------------
+
+
+
+// Write a program to print your name
+
+public class Sample1 {
+
+	public static void main(String args[]) {
+
+	//Print your name in Console
+	System.out.println(" hi shahensha");
+	}
+}
+
+
+----------------------------------------------------------------------------------------------
+
