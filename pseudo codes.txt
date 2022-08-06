@@ -1,0 +1,37 @@
+//Pseduo code for voter eligibility
+
+BEGIN
+   READ voter age ;
+      IF voter age is 18 or older than 18
+       PRINT "voter is Eligible for vote";
+   ELSE voter age is lower than 18
+       PRINT "voter age is NOT Eligible for vote";
+   
+END
+
+-------------------------------------------------------------
+----------------------------------------------------------------
+// Check your Admission possibility to your dream College based on your academic marks. 
+
+
+BEGIN
+   READ Marks;
+      IF Marks>75%
+       PRINT " Eligible for Admission in dream college";
+   ELSE 
+       PRINT "Not eligible for admission in dream college";
+   
+END
+
+=======================================================================================================
+
+// Find the sum and average of three numbers.
+
+BEGIN
+
+READ A,B,C	
+ Add the three numbers as SUM=A+B+C;
+PRINT "A+B+C"+SUM;
+Divide the sum of the three numbers by 3 AVG=SUM/3;
+PRINT "SUM/3"+AVG;
+END

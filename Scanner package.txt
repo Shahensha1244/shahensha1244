@@ -1,0 +1,16 @@
+
+
+package :  import java.util.Scanner;
+----------
+
+Scanner to execute :  Scanner sc=new Scanner(System.in);
+-------------------
+
+
+
+Providing to take input for user :
+----------------------------------
+
+
+System.out.println("Enter first number: ");
+    int a=sc.nextInt();

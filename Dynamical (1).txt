@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class A1{
+  public static void main(String args[]){
+   Scanner sc=new Scanner(System.in);
+    System.out.println("Enter  value");
+    int a=sc.nextInt();
+    System.out.println(a);
+    System.out.println("Enter string");
+    String str=sc.next();
+    System.out.println(str);
+    System.out.println("Enter float");
+    float f1=sc.nextFloat();
+    System.out.println(f1);
+    System.out.println("Enter long");
+    long l1=sc.nextLong();
+    System.out.println(l1);
+  }
+}

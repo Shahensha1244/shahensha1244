@@ -1,0 +1,9 @@
+Write a program to find maximum between three numbers.
+Write a program to check whether a number is negative, positive or zero.
+Write a program to count number of digits in a number.
+Write a program to find all factors of a number.
+Write a program to calculate sum of digits of a number.
+Write a program to calculate product of digits of a number.
+Write a program to enter a number and print its reverse.
+Write a program to check whether a number is palindrome or not.
+Write a program to check whether a number is Armstrong number or not.

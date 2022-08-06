@@ -1,0 +1,80 @@
+//constructors in java
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+   String str="chiru";
+
+   char [] ch={'a','b','c'};
+  String st=new String();
+  String st1=new String("i am happy");
+  String st2=new String(ch);
+
+  System.out.println("The string is "+st);
+  System.out.println("The string is "+st1);
+  System.out.println("The string is "+st2);
+ }
+}
+=======================================================================
+//String literal
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+   String str1="chiru";
+   String str2="chiru";
+
+  String str3="balu";
+  
+  if(str1==str2){
+    System.out.println("They reffer same memory location or hash code");
+  }
+      else{
+    System.out.println("They don't reffer same memory location or hash code");
+      }
+  
+ }
+}
+==========================================================================================
+//String object
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+    String str1=new String("java");
+    String str2=new String("java");
+  
+  if(str1==str2){
+    System.out.println("They reffer same memory location or hash code");
+  }
+      else{
+    System.out.println("They don't reffer same memory location or hash code");
+      }
+  
+ }
+}
+=======================================================================================================
+//String == and equals methods
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+    String str1=new String("java");
+    String str2=new String("java");
+  
+  if(str1==str2){
+    System.out.println("They reffer same memory location or hash code");
+  }
+      else{
+    System.out.println("They don't reffer same memory location or hash code");
+      }
+  if(str1.equals(str2)){
+    System.out.println("They have same content");
+  }
+      else{
+    System.out.println("They don't same conetet");
+      }
+  
+ }
+}
+==========================================================================================================

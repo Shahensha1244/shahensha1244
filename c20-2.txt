@@ -1,0 +1,101 @@
+java Program to copy all elements of one array into another array
+
+import java.util.Scanner;
+class copyingarry{
+  public static void main (String args[]){
+int a[]=new int[5];
+    int b[]=new int[5];
+    Scanner sc=new Scanner(System.in);
+    System.out.println("First arry elements ");
+
+    for(int i=0;i<5;i++)
+      {
+        a[i]=sc.nextInt();
+      }
+   System.out.println("Second arry elements ");
+
+    for(int i=0;i<5;i++)
+      {
+        b[i]=a[i];
+        System.out.print(b[i]+" ");
+          
+      }
+  }
+}
+
+=======================================================================================================
+Java Program to print the elements of an array in reverse order
+
+/*
+import java.util.Scanner;
+class reverseorder{
+  public static void main(String args[]){
+int a[]=new int[5];
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter elements in arry ");
+    for(int i=0;i<a.length;i++)
+      {
+        a[i]=sc.nextInt();
+      }
+    
+     System.out.println("print in reverse arry elements");  
+    for(int i=a.length-1;i>=0;i--)
+      {
+        System.out.print(a[i]+" ");
+      }
+  }
+}
+*/
+==============================================================================================
+Java Program to print the elements of an array present on even position
+
+import java.util.Scanner;
+
+class evenposition{
+  public static void main (String args[]){
+    int a[]=new int[10];
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enetr arry elements ");
+    for(int i=0;i<a.length;i++)
+      {
+        a[i]=sc.nextInt();
+        
+      }
+    System.out.println("Even position arry elements ");
+      for(int i=2;i<a.length;i++)
+      if(i%2==0)
+      {
+        System.out.println(a[i]+" ");
+      }
+  }
+}
+=============================================================================================================
+Java Program to print the elements of an array present on odd position
+
+import java.util.Scanner;
+class oddposition{
+  public static void main (String args[]){
+    int a[]=new int[10];
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter arry numbers ");
+
+    for(int i=0;i<a.length;i++)
+      {
+       a[i]=sc.nextInt(); 
+      }
+    System.out.println("oddposition elements in arry ");
+    for(int i=0;i<a.length;i++)
+      if(i%2!=0)
+      {
+        System.out.println(a[i]+" ");
+      }
+  }
+}
+===================================================================================================================
+Java Program to sort the elements of an array in ascending order
+Java Program to sort the elements of an array in descending order	
+Java Program to print the largest element in an array
+Java Program to print the smallest element in an array
+Java Program to print the number of elements present in an array
+Java Program to print the elements of an array
+Java Program to print the sum of all the items of the array

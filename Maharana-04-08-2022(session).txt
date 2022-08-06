@@ -1,0 +1,239 @@
+Java Program to print the elements of an array present on even position
+Java Program to print the elements of an array present on odd position
+Java Program to sort the elements of an array in ascending order
+Java Program to sort the elements of an array in descending order
+Java Program to print the largest element in an array
+Java Program to print the smallest element in an array
+Find 3rd Largest Number in an Array
+Find 2nd Largest Number in an Array
+Find Largest Number in an Array
+Find 2nd Smallest Number in an Array
+Find Smallest Number in an Array
+Java Program to print the sum of all the items of the array
+
+Q)Given an array of integers and a positive integer , determine the number of (i+j) pairs where (i<j) and  ar[i]+ar[j] is divisible by K.
+and let the user deside size of array (int n: the length of array ) and take input (int ar[n]: an array of integers) and take input for 
+the integer divisor (int k: the integer divisor) 
+
+ar=[1,2,3,4,5,6]
+k=5
+Three pairs meet the criteria: [1,4],[2,3], and [4,6].
+
+Sample Input:
+Enter size of array : 6
+Enter element in array ar[1]: 1
+Enter element in array ar[2]: 3
+Enter element in array ar[3]: 2
+Enter element in array ar[4]: 6
+Enter element in array ar[5]: 1
+Enter element in array ar[6]: 2
+
+Enter an integer divisor : 3
+
+Sample Output
+
+The total pairs are: 5
+
+====================================================================================
+//Java Program to print the elements of an array present on even position
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+  int arr[]={1,2,8,3,2,5,1};
+
+  for(int i=0;i<arr.length;i++){
+    if(i%2==0){
+    System.out.println(arr[i]);
+    }
+  }
+  
+
+
+  }
+}
+=====================================================================================
+//Java Program to print the elements of an array present on odd position
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+  int arr[]={1,2,8,3,2,5,1};
+
+  for(int i=0;i<arr.length;i++){
+    if(i%2!=0){
+    System.out.println(arr[i]);
+    }
+  }
+  
+
+
+  }
+}
+=====================================================================================
+//Java Program to sort the elements of an array in ascending order
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+  int arr[]={1,2,8,3,10,5,1,100};
+
+  for(int i=0;i<arr.length;i++){
+    for(int j=i+1;j<arr.length;j++){
+
+       if(arr[i]>arr[j]){
+         int temp=arr[i];
+         arr[i]=arr[j];
+         arr[j]=temp;
+       }
+      
+    }
+    
+  }
+  
+   for(int i=0;i<arr.length;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+   
+
+
+  }
+}
+===================================================================================================
+//Java Program to sort the elements of an array in desending  order
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+  int arr[]={1,2,8,3,10,5,1,100};
+
+  for(int i=0;i<arr.length;i++){
+    for(int j=i+1;j<arr.length;j++){
+
+       if(arr[i]<arr[j]){
+         int temp=arr[i];
+         arr[i]=arr[j];
+         arr[j]=temp;
+       }
+      
+    }
+    
+  }
+  
+   for(int i=0;i<arr.length;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+   
+
+
+  }
+}
+======================================================================================================================
+//Find 3rd Largest Number in an Array
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+  int arr[]={1,2,90,3,10,5,1,100};
+  
+  System.out.println("3rd largest element in the array: "+arr[2]);
+
+  for(int i=0;i<arr.length;i++){
+    for(int j=i+1;j<arr.length;j++){
+
+       if(arr[i]<arr[j]){
+         int temp=arr[i];
+         arr[i]=arr[j];
+         arr[j]=temp;
+       }
+      
+    }
+    
+  }
+  
+  System.out.println("3rd largest element in the array: "+arr[2]);
+
+
+  }
+}
+ ========================================================================================================
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+  System.out.println("Enter any number");
+  int n=sc.nextInt();
+
+  if(n%2!=0){
+    System.out.println("Wired");
+  }
+  else{
+    if(n>=2 && n<=5){
+      System.out.println("Not Wired");
+    }
+    else if(n>=6 && n<=20){
+      System.out.println("Wired");
+    }
+    else{
+       System.out.println("Not Wired");
+    }
+  }
+======================================================================================================
+/*Q)Given an array of integers and a positive integer , determine the number of (i+j) pairs where (i<j) and  ar[i]+ar[j] is divisible by K.
+and let the user deside size of array (int n: the length of array ) and take input (int ar[n]: an array of integers) and take input for 
+the integer divisor (int k: the integer divisor) 
+
+ar=[1,2,3,4,5,6]
+k=5
+Three pairs meet the criteria: [1,4],[2,3], and [4,6].
+
+Sample Input:
+Enter size of array : 6
+Enter element in array ar[1]: 1
+Enter element in array ar[2]: 3
+Enter element in array ar[3]: 2
+Enter element in array ar[4]: 6
+Enter element in array ar[5]: 1
+Enter element in array ar[6]: 2
+
+Enter an integer divisor : 3
+
+Sample Output
+
+The total pairs are: 5   */
+import java.util.*;
+public class Yippee
+{  
+public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+  System.out.print("Fix the size of array : ");
+  int n=sc.nextInt();
+
+  int [] arr=new int[n];
+  for(int i=0;i<n;i++){
+    System.out.print("Enter element in array arr  ["+(i+1)+"] :");
+    arr[i]=sc.nextInt();
+  }
+
+   System.out.print("Enter an integer divisor :");
+  int k=sc.nextInt();
+
+  int count=1;
+
+    for(int i=0;i<n;i++){
+      for(int j=1;j<n;j++){
+        if(i>j && (arr[i]+arr[j])%k==0){
+          count++;
+        }
+      }
+    }
+  
+System.out.print("The total pairs are: "+count);
+
+ }
+}
+=====================================================================================================================
+
